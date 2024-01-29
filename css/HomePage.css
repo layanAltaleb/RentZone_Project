@@ -1,0 +1,90 @@
+body {
+            background-color: #F4FDFC;
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        header {
+            background-color: #F4FDFC;
+            color: #5F818A;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            height: 15vh;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #5F818A;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+      
+        
+        .welcome {
+            background-image: url("img/ap.jpg") ;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:  #5F818A;
+        }
+
+        .container {
+            padding: 50px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #F4FDFC;
+            opacity: 0.8;
+            position: relative;
+            float: right;
+           
+        }
+
+        .container h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .container p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .si {
+            background-color: #225862;
+            color: #F4FDFC;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .si:hover {
+            background-color: #5F818A;
+        }
+        .su{
+            font-size: 18px;
+             color:#225862 ;
+        }
+        

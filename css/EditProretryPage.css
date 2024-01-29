@@ -1,0 +1,28 @@
+ #flexx{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 160px;
+            margin: auto;
+            align-content:space-around;
+            background-color:whitesmoke;
+            border-radius: 5px;
+        }
+
+        #flexxx{
+        float: right;
+        align-content:space-around;
+        background-color:whitesmoke;
+        border-radius: 5px;
+        }
+
+        #flexx img{
+            margin: 5px;
+        }
+
+        a{
+            color:#225862 ;
+        }
+        
+       
+        

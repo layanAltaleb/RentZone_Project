@@ -1,0 +1,121 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#welcome{
+    float: left;
+    margin-top: 7%;
+    color:#225862;
+}
+
+.info{
+    background-color: #f2f4f4;
+    color: #225862;
+    border-radius: 3%;
+    padding: 1%;
+    margin-left: 1%;
+    font-size: smaller;
+}
+
+img{
+    float: left; 
+    margin-left:2%;
+    margin-top: 2%;
+}
+
+#seekerInfoCon{
+    display: flex;  
+    padding: 1%;
+}
+
+ul{
+    list-style: none;
+    background-color: #5F818A;
+    padding: 10px;  
+    color: #f2f4f4;
+    border-radius: 2%;
+    margin-left: 33%;
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+}
+
+li{
+    font-size: medium;
+}
+
+body{
+    background-color:#F4FDFC;
+}
+
+table , th, td {
+    border: 2px solid #5F818A;
+    border-radius: 3%;
+}
+
+
+#t1 {
+    width: 90%;
+    height: 20%;
+    margin-left: 6%;
+    margin-top: 2%;
+  }
+
+#t2 {
+    width: 90%;
+    margin-left: 6%;
+    margin-top: -1%;
+  }
+
+
+table th{
+    background-color: #5F818A;;
+    color: #f2f4f4;
+}
+ 
+
+th, td{ 
+    padding: 15px;
+    text-align:center;
+    color: #969674;
+}
+
+td{
+    color: #225862;
+}
+
+a{
+    color: #225862;  
+}
+
+a:hover{
+    color:#5F818A;
+}
+
+#sign-out{
+    margin-left: 90%;
+    background-color: #225862;
+    border-radius: 100%;
+    font-size:medium;
+    font-weight:bold ;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+}
+  
+#sign-out:hover {
+    background-color: #5F818A;
+  }
+
+
+#SearchByCategory{
+    margin-left: 80%;
+    margin-top: 6%;
+    color: #225862;
+}
+
+caption{
+    font-size:x-large;
+    color:#225862 ;
+}
+
