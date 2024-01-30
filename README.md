@@ -6,35 +6,35 @@ The application is crafted using HTML for structure, CSS for styling, and JavaSc
 
 # Project Features:
 
-## User Authentication and Roles:
+1. **User Authentication and Roles:** 
 - Users can securely sign up, log in, and log out.
 - Passwords are hashed for enhanced security.
 - Two user roles: home seeker and homeowner.
 
-## Home Seeker Homepage:
+## 2.**Home Seeker Homepage:**
 - Displays user information and a table of applied properties.
 - Lists available properties with search functionality by category.
 - Enables home seekers to apply for properties.
 
-## Homeowner Homepage:
+## 3.**Homeowner Homepage:**
 - Provides homeowner information.
 - Tables for managing rental applications and listed properties.
 - Allows updating application statuses and deleting properties.
 
-## Property Management:
-- Add new property page for homeowners.
+## 4.**Property Management:**
+- Add a new property page for homeowners.
 - Property details page with apply or edit functionality based on the user's role.
 
-## Database Schema:
+## 5.**Database Schema:**
 - Utilizes tables for HomeSeeker, Homeowner, Property, RentalApplication, PropertyCategory, ApplicationStatus, and PropertyImage.
 - Incorporates foreign keys for establishing relationships.
 
-## Backend Functionality:
+## 6.**Backend Functionality:**
 - Implements database interactions for adding, updating, and retrieving information.
 - Enables session-based user authentication and role-based access control.
-- Integrates functionality for home seekers to view, search, and apply for properties, and for homeowners to manage their listed properties and applications.
+- Integrates functionality for home seekers to view, search, and apply for properties and for homeowners to manage their listed properties and applications.
 
-## Security Measures:
+## 7.**Security Measures:**
 - Ensures all pages check user login and role, redirecting unauthorized users.
 - Implements secure password hashing.
 - Validates unique email addresses during home seeker sign-up.
