@@ -11,30 +11,30 @@ The application is crafted using HTML for structure, CSS for styling, and JavaSc
 - Passwords are hashed for enhanced security.
 - Two user roles: home seeker and homeowner.
 
-## 2.**Home Seeker Homepage:**
+ 2.**Home Seeker Homepage:**
 - Displays user information and a table of applied properties.
 - Lists available properties with search functionality by category.
 - Enables home seekers to apply for properties.
 
-## 3.**Homeowner Homepage:**
+ 3.**Homeowner Homepage:**
 - Provides homeowner information.
 - Tables for managing rental applications and listed properties.
 - Allows updating application statuses and deleting properties.
 
-## 4.**Property Management:**
+ 4.**Property Management:**
 - Add a new property page for homeowners.
 - Property details page with apply or edit functionality based on the user's role.
 
-## 5.**Database Schema:**
+ 5.**Database Schema:**
 - Utilizes tables for HomeSeeker, Homeowner, Property, RentalApplication, PropertyCategory, ApplicationStatus, and PropertyImage.
 - Incorporates foreign keys for establishing relationships.
 
-## 6.**Backend Functionality:**
+ 6.**Backend Functionality:**
 - Implements database interactions for adding, updating, and retrieving information.
 - Enables session-based user authentication and role-based access control.
 - Integrates functionality for home seekers to view, search, and apply for properties and for homeowners to manage their listed properties and applications.
 
-## 7.**Security Measures:**
+ 7.**Security Measures:**
 - Ensures all pages check user login and role, redirecting unauthorized users.
 - Implements secure password hashing.
 - Validates unique email addresses during home seeker sign-up.
