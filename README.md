@@ -41,12 +41,12 @@ The application is crafted using HTML for structure, CSS for styling, and JavaSc
 
 ## How to run
 
-1)Clone the repository to your local machine.
-2)Import the provided database schema.
-3)Set up your server environment (XAMPP/WAMP/MAMP).
-4)Open the project in your preferred code editor (e.g., NetBeans).
-5)Start your local server and database services.
-6)Navigate to the project's homepage and start exploring the features.
+- Clone the repository to your local machine.
+- Import the provided database schema.
+- Set up your server environment (XAMPP/WAMP/MAMP).
+- Open the project in your preferred code editor (e.g., NetBeans).
+- Start your local server and database services.
+- Navigate to the project's homepage and start exploring the features.
 
 # Contributors:
 Layan Altaleb, Munira Alhammad, Latifa Alawwad, Ghaida Alabdulqader.
